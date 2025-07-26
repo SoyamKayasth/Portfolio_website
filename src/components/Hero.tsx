@@ -1,6 +1,6 @@
 import { ArrowDown, Download, Github, Linkedin, Mail, MapPin } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import profileImage from '@/assets/profile-image.jpg';
+import profileImage from '/profile-image.png';
 
 const Hero = () => {
   const scrollToNext = () => {
