@@ -1,7 +1,8 @@
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/8ecf7c84-644b-43f7-9b7f-d8611f87d436
+**URL**:
+(https://soyam-porfolio.lovable.app/)
 ## What technologies are used for this project?
 
 This project is built with:
