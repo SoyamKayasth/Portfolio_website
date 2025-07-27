@@ -51,6 +51,12 @@ portfolio-website/
 
 ---
 
+## 🎬 Live Preview
+
+![Website Preview](./demo.gif)
+
+---
+
 ## 🚀 Getting Started
 
 To run this project locally:
@@ -73,7 +79,4 @@ npm run dev
 bash
 npm run build
 
-## 🎬 Live Preview
-
-![Website Preview](demo.gif)
-
+---
