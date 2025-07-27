@@ -9,8 +9,8 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'Email',
-      value: 'megharjmk88@gmail.com',
-      link: 'mailto:megharjmk88@gmail.com',
+      value: 'soyamkayasth411@gmail.com',
+      link: 'mailto:soyamkayasth411@gmail.com',
       color: 'text-blue-500'
     },
     {
@@ -96,7 +96,7 @@ const Contact = () => {
                       </div>
                       <div>
                         <h4 className="font-semibold text-foreground">{info.title}</h4>
-                        <p className="text-muted-foreground">{info.value}</p>
+                        <p className="text-muted-foreground">soyamkayasth411@gmail.com</p>
                       </div>
                     </a>
                   ))}
