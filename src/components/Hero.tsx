@@ -23,10 +23,7 @@ const Hero = () => {
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
           {/* Text Content */}
           <div className="flex-1 text-center lg:text-left animate-fade-in">
-            <div className="inline-flex items-center gap-2 bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-medium mb-6">
-              <MapPin className="h-4 w-4" />
-              Chh. Sambhajinagar, India
-            </div>
+            
             
             <h1 className="font-heading text-5xl lg:text-7xl font-bold text-foreground mb-6 leading-tight">
               Hello, I'm{' '}
@@ -35,9 +32,7 @@ const Hero = () => {
               </span>
             </h1>
             
-            <h2 className="text-xl lg:text-2xl text-muted-foreground mb-6 font-medium">
-              Full Stack Developer & MCA Student
-            </h2>
+            <h2 className="text-xl lg:text-2xl text-muted-foreground mb-6 font-medium">Aspiring Full Stack Developer</h2>
             
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed max-w-2xl">Passionate about creating modern, responsive web applications using the MERN stack. Currently pursuing BCA at Shivaji College Kannad with hands-on experience in both frontend and backend development.</p>
 

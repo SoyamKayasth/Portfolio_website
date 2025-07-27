@@ -61,11 +61,12 @@ const About = () => {
                   I have experience in both front-end and back-end development, and I enjoy working 
                   with the MERN stack to build modern web applications.
                 </p>
-                <p className="text-muted-foreground leading-relaxed">
-                  My passion lies in creating intuitive user experiences and robust backend systems 
-                  that solve real-world problems. I'm constantly learning new technologies and 
-                  improving my skills.
-                </p>
+                <p className="text-muted-foreground leading-relaxed">I’m driven by the ambition to build a career in Software Development. I love solving real-world problems through code and always strive to improve both my logic and creativity.
+My Goal is -
+To become a skilled Web Developer who not only builds great applications but also makes a positive impact through technology. I’m always eager to learn and take on new challenges that push my limits.
+If you find my work interesting, feel free to explore my Git Hub repositories or connect with me!
+
+              </p>
               </CardContent>
             </Card>
           </div>
