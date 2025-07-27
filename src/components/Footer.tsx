@@ -1,52 +1,50 @@
 import { Heart, Github, Linkedin, Mail, Twitter, Instagram } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-
 const Footer = () => {
   const currentYear = new Date().getFullYear();
-
-  const socialLinks = [
-    {
-      icon: Github,
-      name: 'GitHub',
-      url: 'https://github.com/SoyamKayasth',
-      color: 'hover:text-gray-300'
-    },
-    {
-      icon: Linkedin,
-      name: 'LinkedIn',
-      url: 'https://www.linkedin.com/in/soyam-kayasth',
-      color: 'hover:text-blue-400'
-    },
-    {
-      icon: Twitter,
-      name: 'Twitter',
-      url: 'https://twitter.com',
-      color: 'hover:text-blue-400'
-    },
-    {
-      icon: Instagram,
-      name: 'Instagram',
-      url: 'https://instagram.com',
-      color: 'hover:text-pink-400'
-    }
-  ];
-
-  const quickLinks = [
-    { name: 'About', href: '#about' },
-    { name: 'Skills', href: '#skills' },
-    { name: 'Projects', href: '#projects' },
-    { name: 'Contact', href: '#contact' }
-  ];
-
+  const socialLinks = [{
+    icon: Github,
+    name: 'GitHub',
+    url: 'https://github.com/SoyamKayasth',
+    color: 'hover:text-gray-300'
+  }, {
+    icon: Linkedin,
+    name: 'LinkedIn',
+    url: 'https://www.linkedin.com/in/soyam-kayasth',
+    color: 'hover:text-blue-400'
+  }, {
+    icon: Twitter,
+    name: 'Twitter',
+    url: 'https://twitter.com',
+    color: 'hover:text-blue-400'
+  }, {
+    icon: Instagram,
+    name: 'Instagram',
+    url: 'https://instagram.com',
+    color: 'hover:text-pink-400'
+  }];
+  const quickLinks = [{
+    name: 'About',
+    href: '#about'
+  }, {
+    name: 'Skills',
+    href: '#skills'
+  }, {
+    name: 'Projects',
+    href: '#projects'
+  }, {
+    name: 'Contact',
+    href: '#contact'
+  }];
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      element.scrollIntoView({
+        behavior: 'smooth'
+      });
     }
   };
-
-  return (
-    <footer className="bg-primary text-primary-foreground relative overflow-hidden">
+  return <footer className="bg-primary text-primary-foreground relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-primary-glow/20 to-transparent"></div>
@@ -62,17 +60,9 @@ const Footer = () => {
               Currently pursuing MCA and building the future, one line of code at a time.
             </p>
             <div className="flex gap-4">
-              {socialLinks.map((social, index) => (
-                <a
-                  key={index}
-                  href={social.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={`p-2 rounded-full bg-primary-foreground/10 hover:bg-primary-foreground/20 transition-all duration-200 transform hover:scale-110 ${social.color}`}
-                >
+              {socialLinks.map((social, index) => <a key={index} href={social.url} target="_blank" rel="noopener noreferrer" className={`p-2 rounded-full bg-primary-foreground/10 hover:bg-primary-foreground/20 transition-all duration-200 transform hover:scale-110 ${social.color}`}>
                   <social.icon className="h-5 w-5" />
-                </a>
-              ))}
+                </a>)}
             </div>
           </div>
 
@@ -80,16 +70,11 @@ const Footer = () => {
           <div>
             <h4 className="font-heading text-lg font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
-              {quickLinks.map((link, index) => (
-                <li key={index}>
-                  <button
-                    onClick={() => scrollToSection(link.href.substring(1))}
-                    className="text-primary-foreground/80 hover:text-primary-foreground transition-colors duration-200 text-left"
-                  >
+              {quickLinks.map((link, index) => <li key={index}>
+                  <button onClick={() => scrollToSection(link.href.substring(1))} className="text-primary-foreground/80 hover:text-primary-foreground transition-colors duration-200 text-left">
                     {link.name}
                   </button>
-                </li>
-              ))}
+                </li>)}
             </ul>
           </div>
 
@@ -99,9 +84,7 @@ const Footer = () => {
             <div className="space-y-3 text-primary-foreground/80">
               <div className="flex items-center gap-2">
                 <Mail className="h-4 w-4 flex-shrink-0" />
-                <a href="mailto:soyam@example.com" className="hover:text-primary-foreground transition-colors duration-200 text-sm">
-                  soyam@example.com
-                </a>
+                <a href="mailto:soyam@example.com" className="hover:text-primary-foreground transition-colors duration-200 text-sm">soyamkayasth411@gmail.com</a>
               </div>
               <div className="flex items-start gap-2">
                 <svg className="h-4 w-4 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
@@ -126,13 +109,11 @@ const Footer = () => {
             <div className="flex items-center gap-2 text-primary-foreground/80 text-sm">
               <span>Made with</span>
               <Heart className="h-4 w-4 text-red-400 fill-current animate-pulse" />
-              <span>using React & Tailwind CSS</span>
+              <span>With me3</span>
             </div>
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
