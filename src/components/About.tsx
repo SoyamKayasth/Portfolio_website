@@ -22,8 +22,8 @@ const About = () => {
   }, {
     level: 'BCA',
     institution: 'BAMU',
-    status: 'Completed',
-    highlight: false
+    status: 'Current',
+    highlight: true
   }, {
     level: '12th PCM',
     institution: '60%',
