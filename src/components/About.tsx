@@ -15,11 +15,6 @@ const About = () => {
     desc: 'Participated in national quiz competition'
   }];
   const education = [{
-    level: 'MCA',
-    institution: 'Government College of Pune',
-    status: 'Current',
-    highlight: true
-  }, {
     level: 'BCA',
     institution: 'BAMU',
     status: 'Current',
