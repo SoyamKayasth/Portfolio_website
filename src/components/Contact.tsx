@@ -16,7 +16,7 @@ const Contact = () => {
     {
       icon: Phone,
       title: 'Phone',
-      value: '+91 99700 97411',
+      value: '+91 9970097411',
       link: 'tel:+919970097411',
       color: 'text-green-500'
     },
@@ -96,7 +96,7 @@ const Contact = () => {
                       </div>
                       <div>
                         <h4 className="font-semibold text-foreground">{info.title}</h4>
-                        <p className="text-muted-foreground">soyamkayasth411@gmail.com</p>
+                        <p className="text-muted-foreground">{info.value}</p>
                       </div>
                     </a>
                   ))}
