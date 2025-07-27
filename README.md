@@ -2,25 +2,73 @@
 ## Project info
 
 **URL**:
-(https://soyam-porfolio.lovable.app/)
-## What technologies are used for this project?
+# 👨‍💻 Soyam Kayasth - Portfolio Website
 
-This project is built with:
+Welcome to my personal portfolio website!  
+This project showcases who I am, the skills I possess, and the work I've done. Built with simplicity, performance, and modern design principles in mind, this site reflects my journey and aspirations as a web developer and software engineer.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+🔗 **Live Site:** [soyamkayasth.lovable.app](https://soyamkayasth.lovable.app/)
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/8ecf7c84-644b-43f7-9b7f-d8611f87d436) and click on Share -> Publish.
+## 📌 Features
 
-## Can I connect a custom domain to my Lovable project?
+- Responsive design across all devices
+- Clean and modern UI
+- About Me and Skills section
+- Project Gallery with tech tags and links
+- Contact form with working email link
+- Smooth scroll navigation
+- Animated UI components (if applicable)
+- Deployed online with a custom subdomain
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 🧰 Tech Stack
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+| Category     | Tools & Technologies           |
+|--------------|--------------------------------|
+| Frontend     | HTML5, CSS3, JavaScript        |
+| Framework    | React (if exported), or Static |
+| Styling      | Tailwind CSS / Custom CSS      |
+| Deployment   | Lovable.app Hosting / Netlify / Vercel |
+| Icons & Fonts| Google Fonts, Font Awesome     |
+
+---
+## 📁 Project Structure
+
+portfolio-website/
+├── public/
+│ └── assets/ (images, icons)
+├── src/
+│ ├── components/ (Header, Hero, About, Projects, Contact, Footer)
+│ ├── App.js
+│ ├── index.js
+│ └── styles/
+├── README.md
+├── package.json
+└── .gitignore
+
+---
+
+## 🚀 Getting Started
+
+To run this project locally:
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/yourusername/soyamkayasth-portfolio.git
+cd soyamkayasth-portfolio
+
+2. Install dependencies: 
+bash
+npm install
+
+3. Run the project :
+bash
+npm run dev
+
+4. Build for production:
+bash
+npm run build
