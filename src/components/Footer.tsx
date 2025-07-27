@@ -57,7 +57,7 @@ const Footer = () => {
             <h3 className="font-heading text-2xl font-bold mb-4">Soyam Kayasth</h3>
             <p className="text-primary-foreground/80 leading-relaxed mb-6 max-w-md">
               Full Stack Developer passionate about creating innovative web solutions. 
-              Currently pursuing MCA and building the future, one line of code at a time.
+              Currently pursuing BCA and building the future, one line of code at a time.
             </p>
             <div className="flex gap-4">
               {socialLinks.map((social, index) => <a key={index} href={social.url} target="_blank" rel="noopener noreferrer" className={`p-2 rounded-full bg-primary-foreground/10 hover:bg-primary-foreground/20 transition-all duration-200 transform hover:scale-110 ${social.color}`}>
