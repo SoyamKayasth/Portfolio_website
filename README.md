@@ -2,7 +2,7 @@
 ## Project info
 
 **URL**:
-# 👨‍💻 Soyam Kayasth - Portfolio Website
+# 👨‍💻 My Portfolio Website
 
 Welcome to my personal portfolio website!  
 This project showcases who I am, the skills I possess, and the work I've done. Built with simplicity, performance, and modern design principles in mind, this site reflects my journey and aspirations as a web developer and software engineer.
@@ -72,3 +72,8 @@ npm run dev
 4. Build for production:
 bash
 npm run build
+
+## 🎬 Live Preview
+
+![Website Preview](demo.gif)
+
