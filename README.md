@@ -38,16 +38,26 @@ This project showcases who I am, the skills I possess, and the work I've done. B
 ## 📁 Project Structure
 
 portfolio-website/
+
 ├── public/
-│ └── assets/ (images, icons)
-├── src/
-│ ├── components/ (Header, Hero, About, Projects, Contact, Footer)
-│ ├── App.js
-│ ├── index.js
-│ └── styles/
-├── README.md
-├── package.json
-└── .gitignore
+
+  │ └── assets/ (images, icons)
+
+    ├── src/
+
+      │ ├── components/ (Header, Hero, About, Projects, Contact, Footer)
+       
+       │ ├── App.js
+         
+         │ ├── index.js
+           
+           │ └── styles/
+              
+              ├── README.md
+               
+                ├── package.json
+                   
+                   └── .gitignore
 
 ---
 
